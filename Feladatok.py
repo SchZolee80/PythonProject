@@ -1,3 +1,4 @@
+import korszamitas
 # Hozz létre egy listát, amelyben 5 különböző gyümölcs neve található.
 gyumolcsok = ["alma", "körte", "szilva", "banán", "ananász"]
 
@@ -12,3 +13,9 @@ for gyumolcs in (gyumolcsok):
     if gyumolcs.startswith('a'):
         print(gyumolcs)
 
+# korszamitas
+sugar = float(input("Kérem, adja meg a kör sugarát: "))
+terulet, kerulet = korszamitas.kor_terulet_es_kerulet(sugar)
+
+print(f"A kör területe: {terulet:.2f}")
+print(f"A kör kerülete: {kerulet:.2f}")
