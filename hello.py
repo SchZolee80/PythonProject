@@ -1,2 +1,3 @@
 print('Hello')
-print("python")
+print('python')
+print('valami')
