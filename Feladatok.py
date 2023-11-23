@@ -1,4 +1,6 @@
 import korszamitas
+import negyzetreemeles
+
 # Hozz létre egy listát, amelyben 5 különböző gyümölcs neve található.
 gyumolcsok = ["alma", "körte", "szilva", "banán", "ananász"]
 
@@ -19,3 +21,8 @@ terulet, kerulet = korszamitas.kor_terulet_es_kerulet(sugar)
 
 print(f"A kör területe: {terulet:.2f}")
 print(f"A kör kerülete: {kerulet:.2f}")
+
+# negyzetszamitas
+
+oldal = float(input("Adja meg a négyzet oldalát: "))
+print(f"A négyzet területe: {negyzetreemeles.negyzet(oldal):.2f}")
