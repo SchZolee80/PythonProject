@@ -4,6 +4,6 @@ def udvozles():
 def udvozles2(greet_name):
     print(f"Hello {greet_name}!")
 
-udvozles()
-udvozles2("Béla")
+# udvozles()
+# udvozles2("Béla")
 
